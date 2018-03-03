@@ -4,11 +4,11 @@
     <div class="card-title">Order Management Application</div>
     <div class="row">
 
-      <order-list class="col s6"
+      <order-list class="col s12 m6"
           (selectOrder)="setOrder($event)"
           [orders]="orderList"></order-list>
 
-      <order-details class="col s6"
+      <order-details class="col s12 m6"
           [selectedOrderDetails]="selectedOrder"></order-details>
 
     </div>
