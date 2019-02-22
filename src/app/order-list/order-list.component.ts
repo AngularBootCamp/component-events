@@ -7,7 +7,7 @@ import { Order } from '../api-types';
   templateUrl: './order-list.component.html'
 })
 export class OrderListComponent {
-  @Input() orders: Order[];
+  @Input() orders: Order[] = [];
 
   @Output() selectOrder = new EventEmitter<Order>();
 
